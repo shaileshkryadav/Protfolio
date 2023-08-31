@@ -1,0 +1,38 @@
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 20px;
+}
+
+.navbar_log{
+    color: grey;
+    font-size: 10px;
+}
+
+.navbar_links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar_links>p {
+ font-family: Roboto;
+ font-size: 21.33px;
+}
+
+.navbar_btn{
+    outline: none;
+    border: 1px solid #5E3BEE;
+    padding: 6px;
+    border-radius: 8px;
+}
+.navbar_btn > button{
+    color:#5E3BEE;
+    outline: none;
+    border: 0px;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 14px;
+}

@@ -1,0 +1,66 @@
+.landingPage{
+    height: 100vh;
+    width:100vw;
+    background-color: #F5FCFF;
+    overflow: hidden;
+}
+
+.landingPage_container{
+    margin-left: 10%;
+    margin-top: 40px;
+    height: 80vh;
+    width: 90vw;
+    background-color: #F5FCFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landingPage_text{
+    height: 30%;
+    width: 50%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.landingPage_text-into > p{
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.landingPage_text-des {
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.landingPage_text-des>h1> span {
+    color: #5E3BEE;
+}
+
+.landingPage_text-des_more{
+    font-family: Roboto;
+    font-weight: 600px;
+}
+
+.landingPage_text-btn{
+    outline: none;
+    border:0px;
+}
+.landingPage_text-btn > button{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #7881fd; 
+    background-color: #5E3BEE;
+    color: white;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+
+.landingPage_img{
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+}

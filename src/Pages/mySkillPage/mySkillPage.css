@@ -1,0 +1,27 @@
+.mySkillPage{
+    padding: 0% 10%;
+    overflow: hidden;
+}
+
+.mySkillPage_header > p {
+    font-family: Roboto;
+    font-size: 21.33px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mySkillPage_header >h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 800px;
+    line-height: 76.4px;
+    margin-bottom: 20px;
+}
+
+.mySkillPage_actualSkill{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-flow: wrap;
+}

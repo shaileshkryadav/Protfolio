@@ -1,0 +1,37 @@
+.mySkillCard{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #F5FCFF;
+}
+
+.mySkillCard_img > img{
+    height: 60px;
+    width: 60px;
+    object-fit: fill;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+
+
+.mySkillCard_title > h1{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.mySkillCard_title > p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

@@ -1,8 +1,10 @@
 .landingPage{
     height: 100vh;
     width:100vw;
-    background-color: #F5FCFF;
-    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .landingPage_container{
@@ -13,11 +15,11 @@
     background-color: #F5FCFF;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .landingPage_text{
-    height: 30%;
+    height: 50%;
     width: 50%;
     margin-bottom: 20%;
     display: flex;
@@ -49,8 +51,8 @@
     border:0px;
 }
 .landingPage_text-btn > button{
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 60px;
     outline: none;
     border: 1px solid #7881fd; 
     background-color: #5E3BEE;

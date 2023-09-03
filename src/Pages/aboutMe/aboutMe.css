@@ -1,0 +1,54 @@
+.aboutMe{
+    margin-top: 16vh;
+    margin-left: 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.aboutMe_img>img{
+    height: 50vh;
+    object-fit: fill;
+    margin-top: 20%;
+}
+
+.aboutMe_text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-right: 40px;
+}
+
+.aboutMe_text-about{
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.aboutMe_text-aboutMe{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.aboutMe_text-description{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

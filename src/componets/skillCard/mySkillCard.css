@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: start;
     background-color: #F5FCFF;
+    padding: 10px;
 }
 
 .mySkillCard_img > img{
